@@ -1,9 +1,9 @@
 #!/bin/bash
 
 PHASE1=./pot10_final.ptau
-BUILD_DIR=./build/draw
+BUILD_DIR=./build/claim
 CIRCUIT_DIR=./circuits
-CIRCUIT_NAME=("draw" "draw_2")
+CIRCUIT_NAME=("claim")
 CONTRACTS_DIR=./src
 
 if [ -f "$PHASE1" ]; then
